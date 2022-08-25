@@ -1,133 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<style>
-
-		/* Styling the body */
-		* {
-			margin: 0px;
-			padding: 0px;
-		}
-
-		/* https://drive.google.com/uc?id=1w0IwqDI-V9ijHTBseF_E3UDrglJrIv4z
-		https://drive.google.com/file/d/1w0IwqDI-V9ijHTBseF_E3UDrglJrIv4z/view?usp=sharing/marvin-meyer-SYTO3xs06fU-unsplash.jpg	
-		Styling the first parallax's
-		height, width and background color */
-		.parallax-1 {
-			width: 100%;
-			height: 600px;
-			background: url('https://drive.google.com/uc?id=1w0IwqDI-V9ijHTBseF_E3UDrglJrIv4z');
-			background-size: 100% 100%;
-			background-attachment: fixed;
-		}
-
-		/* Styling the title of first parallax */
-		.parallax-1 h2 {
-			margin: auto;
-			position: relative;
-			left: 500x;
-			top: 300px;
-			width: 250px;
-			height: 32px;
-			padding: 10px;
-			background-color: black;
-			color: white;
-			text-align: center;
-		}
-
-		/* Styling the second parallax's
-		height, width and background color */
-		.parallax-2 {
-			width: 100%;
-			height: 600px;
-			background: url('https://drive.google.com/uc?id=1w0IwqDI-V9ijHTBseF_E3UDrglJrIv4z');
-			background-size: 100% 100%;
-			background-attachment: fixed;
-		}
-
-		/* Styling the title of second parallax */
-		.parallax-2 h2 {
-			margin: auto;
-			position: relative;
-			left: 500x;
-			top: 300px;
-			width: 250px;
-			height: 37px;
-			padding: 10px;
-			background-color: white;
-			color: black;
-			text-align: center;
-			font-size: 30px;
-			font-family: Verdana;
-		}
-
-		/* Styling the content or paragraph */
-		.para-1 {
-			padding: 50px;
-			background-color: black;
-			color: white;
-			font-size: 17px;
-		}
-
-		/* Styling the content or paragraph */
-		.para-2 {
-			text-align: center;
-			padding: 25px;
-			font-size: 17px;
-			font-family: Verdana;
-			background-color: black;
-			color: white;
-		}
-	</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Parallax Website Demo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-	<!-- Giving title of the first parallax -->
-	<div class="parallax-1">
-		<h2>Roshan G. Goswami</h2>
-	</div>
-
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Parallax Website
+      </span>
+    </div>
+  </div>
 	<!--Content of first parallax -->
-	<div class="para-1">
-		<p>
-			Thankyou for showing interest,here is a quick story of me and this website. My Computer Science journey started back in 2008 from Pune,I started
-			studying CSE in PVPIT College. I always had interest in business or i can say developing something new Idea which will help every one to grow and this interest came from 
-			the crayness about computers ...so I am Entrepernu waiting to here for nex Lines..			
+  <section class="section section-light">
+    <h2>INTRODUCTION</h2>
+	<h3>Roshan G. Goswami</h3>
+    <p>
+      Thankyou for showing interest,here is a quick story of me and this website. My Computer Science journey started back in 2008 from Pune,I started
+	studying CSE in PVPIT College. I always had interest in business or i can say developing something new Idea which will help every one to grow and this interest came from 
+	the crayness about computers ...so I am Entrepernu waiting to here for nex Lines..	
+    </p>
+  </section>
+<!-- Giving title of the first parallax -->
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        PROJECTS
+      </span>
+    </div>
+  </div>
+	
+  <section class="section section-dark">
+    <h2>PROJECTS</h2>
+    <p>
+      <ol>
+      		<li>SmileWithStudy</li>
+			<li>DoctorCloud Mobile and Desktop</li>
+			<li>EasyLife Anywhere Mobile and Desktop Apllication</li>
+			<li>3d Object Analyzer</li>
+			<li>iDocument Server</li>
+			<li>Certified White Hacker</li>
+			<li>Sampark EasyLifeAnywhre Elelction Based Mobile App</li>
+	</ol>
+    </p>
+  </section>
 
-		</p>
-	</div>
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border trans">
+       ACHIEVEMENT
+      </span>
+    </div>
+  </div>
 
-	<!-- Giving title of the first parallax -->
-	<div class="parallax-2">
-		<h2>PROJECTS</h2>
-	</div>
+  <section class="section section-light">
+    <h2>ACHIEVEMENT</h2>
+    <p>
+	<ol>
+      		<li>Certified Ethical Hacker</li>
+	</ol>
+    </p>
+  </section>
 
-	<!--Content of first parallax -->
-	<div class="para-2">
-		<p>
-			SmileWithStudy
-			DoctorCloud
-			EasyLife Anywhere
-			3d Object Analyzer
-			iDocument Server
-			Certified White Hacker
-			Chat Bot in Pythons 
-		</p>
-	</div>
-
-	<!--This will be same as first parallax-->
-	<div class="parallax-1">
-		<h2>ACHIEVEMENTS</h2>
-	</div>
-
-	<div class="para-2">
-		<p>
-			 
-			Computer Word Learner
-		</p>
-	</div>
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+       
+      </span>
+    </div>
+  </div>
+	<section class="section section-dark">
+    <h2>Know More</h2>
+    <p>
+	Contact Me
+    </p>
+  </section>
 </body>
-
 </html>
