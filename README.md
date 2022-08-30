@@ -5,9 +5,20 @@ A major trend in web design is parallax scrolling, which involves the background
 For Tutorial
 detailed instructions,  visit NewtonSchool Portal
 
-Demo
+Links:
+
 Check out a working example on https://fascinating-puffpuff-bddd44.netlify.app
 
+Built with
+
+HTML 
+CSS custom properties
 CSS
 All CSS is included in style.css.
 
+
+Solution URL: 
+Live Site URL:
+
+
+Author: Newton School
